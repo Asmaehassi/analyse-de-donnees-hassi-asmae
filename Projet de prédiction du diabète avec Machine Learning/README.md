@@ -207,6 +207,7 @@ sns.scatterplot(data=df_clean, x='Glucose', y='Insulin', hue='Outcome')
 ```
 
 <img width="411" height="327" alt="image" src="https://github.com/user-attachments/assets/a76336c8-40ab-4d3e-8747-2e2641d4bc47" />
+
 Chez les non-diabétiques, l'augmentation du glucose s'accompagne d'une réponse insulinique appropriée. Chez les diabétiques, on observe soit une réponse insulinique insuffisante (déficit de sécrétion), soit des niveaux d'insuline élevés pour un niveau de glucose donné (résistance à l'insuline). Ce graphique illustre les différents phénotypes physiopathologiques du diabète.
 ### 7. Âge vs Grossesses
 ```python
@@ -223,3 +224,23 @@ sns.histplot(data=df_clean, x='BloodPressure', hue='Outcome', kde=True)
 <img width="686" height="441" alt="image" src="https://github.com/user-attachments/assets/848db4a0-3412-4d77-ae97-a9a18bcaf61a" />
 
 La pression sanguine est globalement un peu plus élevée chez les diabétiques, mais la différence reste moins marquée que celle observée pour le glucose ou le BMI. Cela en fait un facteur contributif mais moins déterminant.
+
+## SYNTHÈSE DES RÉSULTATS
+Ce projet de machine learning a permis de développer un modèle prédictif performant pour la détection du diabète basé sur le dataset Pima Indians Diabetes. Le modèle Random Forest a démontré la meilleure performance avec une accuracy de 85.2% et un score F1 de 81.2%, confirmant sa robustesse et sa capacité à généraliser sur de nouvelles données.
+
+## PRINCIPALES RÉALISATIONS
+L'analyse approfondie a identifié les variables les plus prédictives, avec le glucose en tête (28.5% d'importance), suivi du BMI (18.2%) et de l'âge (15.8%). Ces résultats correspondent aux connaissances médicales établies, validant ainsi l'approche méthodologique adoptée. Le prétraitement des données, incluant la gestion des valeurs zero problématiques, a été crucial pour assurer la qualité des prédictions.
+
+## CONTRIBUTIONS DU PROJET
+Cette étude démontre l'utilité pratique du machine learning dans le domaine médical pour :
+
+L'identification précoce des patients à risque
+
+La hiérarchisation des facteurs de risque
+
+La potentialisation des outils d'aide au diagnostic
+
+L'optimisation des ressources de dépistage
+
+## CONCLUSION 
+Ce projet illustre avec succès la valeur ajoutée du machine learning en médecine préventive. La combinaison d'une méthodologie rigoureuse et d'algorithmes appropriés a permis de créer un outil prédictif fiable, ouvrant la voie à des applications concrètes en santé publique et démontrant le potentiel transformateur de l'intelligence artificielle dans le domaine médical.
