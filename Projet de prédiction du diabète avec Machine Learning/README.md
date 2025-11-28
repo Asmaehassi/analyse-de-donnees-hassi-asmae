@@ -1,15 +1,7 @@
 ![Profile](https://via.placeholder.com/150x150/4A90E2/FFFFFF?text=VOTRE+PHOTO)
 ## HASSI ASMAE CAC 2 
-#  Prédiction du Diabète - Projet Machine Learning
+#  Prédiction du Diabète : Projet Machine Learning
 
-##  Table des Matières
-- [ Aperçu du Projet](#-aperçu-du-projet)
-- [ Dataset](#-dataset)
-- [ Méthodologie](-méthodologie)
-- [ Résultats](#-résultats)
-- [ Installation et Usage](#-installation-et-usage)
-- [ Contribution](#-contribution)
-- [ License](#-license)
 
 ---
 
