@@ -1,6 +1,6 @@
 
 
-## HASSI ASMAE CAC 2 
+# HASSI ASMAE CAC 2 
 # Analyse et modélisation du diabète avec Machine Learning (Pima Indians Dataset)
 
 
