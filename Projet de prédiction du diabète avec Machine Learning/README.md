@@ -1,4 +1,5 @@
 
+
 ## HASSI ASMAE CAC 2 
 # Analyse et modélisation du diabète avec Machine Learning (Pima Indians Dataset)
 
@@ -74,7 +75,7 @@ Ce projet vise à développer un modèle de machine learning pour prédire le ri
 - Gradient Boosting Classifier
 - Support Vector Machine
   
-## DESCRIPTION DU CODE ET INTERPRÉTATION DES RÉSULTATS
+# DESCRIPTION DU CODE ET INTERPRÉTATION DES RÉSULTATS
 # Explication détaillée du code — Analyse du dataset Pima Indians Diabetes
 
 ## Étape 1 — Chargement des packages
