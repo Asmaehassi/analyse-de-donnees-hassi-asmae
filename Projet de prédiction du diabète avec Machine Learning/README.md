@@ -1,11 +1,16 @@
 ![Profile](https://via.placeholder.com/150x150/4A90E2/FFFFFF?text=VOTRE+PHOTO)
 ## HASSI ASMAE CAC 2 
-#  Prédiction du Diabète : Projet Machine Learning
+# Analyse et modélisation du diabète avec Machine Learning (Pima Indians Dataset)
 
 
 ---
 
-##  Aperçu du Projet
+##  Aperçu de l'analyse
+
+Le jeu de données *Pima Indian Diabetes*, à l’origine fourni par le *National Institute of Diabetes and Digestive and Kidney Diseases*, contient des informations concernant 768 femmes issues d’une population vivant près de Phoenix, en Arizona (États-Unis). Le résultat étudié était la présence de diabète : 258 personnes ont été testées positives et 500 négatives. Il y a donc une variable cible (dépendante) et huit attributs (TYNECKI, 2018) : nombre de grossesses, OGTT (test de tolérance au glucose oral), pression artérielle, épaisseur du pli cutané, insuline, IMC (Indice de Masse Corporelle), âge et fonction héréditaire du diabète (*pedigree diabetes function*).
+
+La population Pima est étudiée par le *National Institute of Diabetes and Digestive and Kidney Diseases* tous les deux ans depuis 1965. Comme les données épidémiologiques indiquent que le diabète de type 2 résulte de l’interaction de facteurs génétiques et environnementaux, le jeu de données Pima Indians Diabetes inclut des informations sur des attributs qui pourraient — et devraient — être liés à l’apparition du diabète et à ses futures complications.
+
 
 ###  Description
 Ce projet vise à développer un modèle de machine learning pour prédire le risque de diabète chez les patientes à partir de données médicales simples.
@@ -28,7 +33,7 @@ Ce projet vise à développer un modèle de machine learning pour prédire le ri
 
 ##  Dataset
 
-###  Informations Générales
+##  Informations Générales
 - **Nom**: Pima Indians Diabetes Database
 - **Source**: National Institute of Diabetes and Digestive and Kidney Diseases
 - **Instances**: 768 patientes
@@ -69,7 +74,7 @@ Ce projet vise à développer un modèle de machine learning pour prédire le ri
 - Gradient Boosting Classifier
 - Support Vector Machine
   
-### DESCRIPTION DU CODE ET INTERPRÉTATION DES RÉSULTATS
+## DESCRIPTION DU CODE ET INTERPRÉTATION DES RÉSULTATS
 # Explication détaillée du code — Analyse du dataset Pima Indians Diabetes
 
 ## Étape 1 — Chargement des packages
