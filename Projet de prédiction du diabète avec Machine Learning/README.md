@@ -1,4 +1,4 @@
-![Profile](https://via.placeholder.com/150x150/4A90E2/FFFFFF?text=VOTRE+PHOTO)
+
 ## HASSI ASMAE CAC 2 
 # Analyse et modélisation du diabète avec Machine Learning (Pima Indians Dataset)
 
